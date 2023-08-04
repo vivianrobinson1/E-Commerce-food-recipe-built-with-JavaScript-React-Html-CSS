@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(228, 214, 209);
+    background-image: radial-gradient(rgb(171, 171, 224), black);
+}
+.card {
+    width: 18rem;
+    margin: 2rem auto;
+    border: 12px double rgb(184, 39, 39);
+    box-shadow: 5px 5px 15px 15px rgb(73, 45, 35);
+    height: fit-content;
+}
+
+
+/* :has(.card) {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+} */
+
+.card:hover {
+    transform: scale(110%, 110%);
+    background-color: yellow;
+    color: red;
+}
+
+.card-body {
+    border: 2px solid lightcoral;
+}
